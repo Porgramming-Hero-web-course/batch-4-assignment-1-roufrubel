@@ -9,4 +9,4 @@ function validateKeys<T extends object>(obj: T, keys: (keyof T)[]): boolean {
 
 
 console.log(validateKeys(person, ["name", "age"]));  
-console.log(validateKeys(person, ["name", "address"]));  
+// console.log(validateKeys(person, ["name", "address"]));  
